@@ -11,6 +11,7 @@ export default function CardFrutas({ data }) {
       </TouchableOpacity>
     </NavigationContainer>
   );
+
 }
 
 const styles = StyleSheet.create({
