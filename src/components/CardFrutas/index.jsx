@@ -1,17 +1,13 @@
-import { NavigationContainer } from "@react-navigation/native";
 import React from "react";
-import { Image, StyleSheet, Text, TouchableOpacity } from "react-native";
+import { Image, StyleSheet, Text, View } from "react-native";
 
-export default function CardFrutas({ data }) {
+export default function CardFrutas({ title, img }) {
   return (
-    <NavigationContainer>
-      <TouchableOpacity style={styles.conteiner}>
-        <Image style={styles.image} source={data.img} />
-        <Text style={styles.text}>{data.nomeProduto}</Text>
-      </TouchableOpacity>
-    </NavigationContainer>
+    <View style={styles.conteiner}>
+      <Image style={styles.image} source={img} />
+      <Text style={styles.text}>{title}</Text>
+    </View>
   );
-
 }
 
 const styles = StyleSheet.create({

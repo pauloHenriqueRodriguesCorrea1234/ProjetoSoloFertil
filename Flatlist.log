@@ -1,0 +1,5 @@
+   {/* <FlatList
+        data={products}
+        renderItem={({ item }) => <CardFrutas data={item} />}
+        keyExtractor={(item) => item.id}
+      /> */}

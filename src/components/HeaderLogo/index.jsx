@@ -12,7 +12,7 @@ export default function Header({ logo }) {
 const styles = StyleSheet.create({
   containerLogo: {
     marginTop: "6%",
-    paddingTop:"5%",
+    paddingTop: "5%",
     width: "100%",
     height: 140,
     backgroundColor: "#002e00",
