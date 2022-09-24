@@ -1,10 +1,10 @@
 import React from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
 
-export default function CardFrutas({ title, img }) {
+export default function CardFrutas({ title, coverUrl }) {
   return (
     <View style={styles.conteiner}>
-      <Image style={styles.image} source={img} />
+      <Image style={styles.coverUrl} source={{uri:coverUrl}} />
       <Text style={styles.text}>{title}</Text>
     </View>
   );
@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     justifyContent: "space-between",
   },
-  image: {
+  coverUrl: {
     width: 120,
     height: 120,
   },

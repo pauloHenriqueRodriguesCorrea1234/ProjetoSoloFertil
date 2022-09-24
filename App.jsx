@@ -26,7 +26,7 @@ export default function App() {
           name="Details"
           component={Details}
           options={({ route }) => ({
-            title: route.params.products.nomeProduto,
+            title: route.params.itens.nomeProduto,
           })}
         />
       </Stack.Navigator>

@@ -2,7 +2,7 @@ import React from "react";
 import { View, ScrollView, Image, Text, StyleSheet } from "react-native";
 
 export default function Details({ route }) {
-  const { products } = route.params;
+  const { itens } = route.params;
   return (
     <View>
       <ScrollView>
@@ -10,18 +10,17 @@ export default function Details({ route }) {
           <View>
             <Image
               resizeMode="contain"
-              source={products.img}
+              source={{ uri: itens.coverUrl }}
               style={styles.Img}
             />
-            <Text style={styles.Text}>{products.nomeProduto}</Text>
           </View>
 
           <View style={styles.View} >
-            <Text style={styles.Text}>Valores Nutricionais do {products.nomeProduto}</Text>
+            <Text style={styles.Text}>Valores Nutricionais do {itens.nomeProduto}</Text>
           </View>
-          <Text style={styles.Text}>Benficios do {products.nomeProduto}</Text>
+          <Text style={styles.Text}>Benficios do {itens.nomeProduto}</Text>
           <View>
-            <Text style={styles.Text}>Número do Produtor: {products.numeroProdutor}</Text>
+            <Text style={styles.Text}>Número do Produtor: {itens.numeroProdutor}</Text>
           </View>
         </View>
       </ScrollView>
