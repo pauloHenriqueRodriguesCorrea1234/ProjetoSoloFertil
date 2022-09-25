@@ -49,6 +49,6 @@ export default function Home({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#d4d8d4",
+    backgroundColor: "#fff",
   },
 });

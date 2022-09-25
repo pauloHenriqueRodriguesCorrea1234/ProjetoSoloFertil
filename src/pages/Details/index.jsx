@@ -15,12 +15,20 @@ export default function Details({ route }) {
             />
           </View>
 
-          <View style={styles.View} >
-            <Text style={styles.Text}>Valores Nutricionais do {itens.nomeProduto}</Text>
+          <View style={styles.View}>
+            <Text style={styles.Text}>
+              Valores Nutricionais do {itens.nomeProduto}
+            </Text>
           </View>
-          <Text style={styles.Text}>Benficios do {itens.nomeProduto}</Text>
+
           <View>
-            <Text style={styles.Text}>Número do Produtor: {itens.numeroProdutor}</Text>
+            <Text style={styles.Text}>Benficios do {itens.nomeProduto}</Text>
+          </View>
+          
+          <View>
+            <Text style={styles.Text}>
+              Número do Produtor: {itens.numeroProdutor}
+            </Text>
           </View>
         </View>
       </ScrollView>
@@ -37,19 +45,17 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     justifyContent: "center",
     alignItems: "center",
-
   },
   Text: {
     color: "#fff",
-    textAlign:"center",
+    textAlign: "center",
   },
   Img: {
     width: 190,
     height: 190,
   },
   View: {
-  alalignItems: "center",
-  justifyContent: "center",
-
-  }
+    alalignItems: "center",
+    justifyContent: "center",
+  },
 });

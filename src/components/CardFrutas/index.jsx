@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     marginVertical: "2%",
     marginHorizontal: "3%",
     flexDirection: "row",
-    backgroundColor: "#fff",
+    backgroundColor: "#e5dfd1",
     justifyContent: "space-between",
   },
   coverUrl: {
