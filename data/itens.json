@@ -3,148 +3,281 @@
         {
             "id": 1,
             "nomeProduto": "Abacaxi",
-            "coverUrl": "https://o.remove.bg/downloads/e7b64e57-ee4c-431b-ae54-20240d438bc6/abacaxi_perola_kg_2937ef26-ee6e-4f91-ad92-9f3111d6ff77-removebg-preview.png",
-            "numeroProdutor": "6599999-9999"
+            "coverUrl": "https://muffatosupermercados.vteximg.com.br/arquivos/ids/277374-400-400/0000000100076.png?v=637372407875030000",
+            "numeroProdutor": "6599999-9999",
+            "valoreNutricionais": [
+                "Calorias (Valor energetico):36.00kcal",
+                "Carboidratos líquidos 8.48g",
+                "Carboidratos 9.23g",
+                "proteinas 0.68g"
+            ],
+            "beneficios":[
+                "O abacaxi é um bom aliado. Afinal de contas, possui vitaminas, minerais e enzimas, como a bromelina. Esses nutrientes ajudam a fortalecer o sistema imunológico e eliminar as inflamações do corpo. Ajuda na perda de peso: sendo um alimento diurético, o abacaxi ajuda na eliminação de líquidos e toxinas do organismo."
+            ]
         },
         {
             "id": 2,
             "nomeProduto": "Abobrinha",
-            "coverUrl": "https://imageswscdn.wslojas.com.br/files/9268/MED_anastacia-1000-sementes-de-abobrinha-italia-hibrida-621532.png"
+            "coverUrl": "https://imageswscdn.wslojas.com.br/files/9268/MED_anastacia-1000-sementes-de-abobrinha-italia-hibrida-621532.png",
+            "numeroProdutor": "6599999-9999",
+            "valoreNutricionais": [
+                "Calorias 15kcal",
+                "Proteínas 1,1g",
+                "Carboidratos 3,og"
+
+            ],
+            "beneficios":[
+
+                "Ajuda emagrecer",
+                "Previne a prisão de ventre",
+                "Ajuda no controle do diabetes",
+                "Facilita a digestão"
+            ]
+            
         },
         {
             "id": 3,
             "coverUrl": "https://us-southeast-1.linodeobjects.com/storage/copagril/media/uploads/produto/abobora_menina_kg_8603be11-447a-4b45-963e-ece4ca276718.png",
-            "nomeProduto": "Abobrinha Menina"
+            "nomeProduto": "Abobrinha Menina",
+            "numeroProdutor":"6599999-9999",
+            "valoreNutricionais":[
+                "Calorias 14.00 kcal",
+                "Carboidratos 3.30",
+                "Proteínas 0.60"
+
+            ],
+            "beneficios":[
+                "Ajuda na formação dos ossos e dos dentes",
+                "Ajuda emagrecer",
+                "Facilita a digestão"
+
+            ]
         },
         {
             "id": 4,
             "nomeProduto": "Agrião",
-            "coverUrl": "https://us-southeast-1.linodeobjects.com/storage/copagril/media/uploads/produto/agriao_un_bd6d9fd7-c86d-4397-9901-656aa920c6eb.thumbnail.png"
+            "coverUrl": "https://us-southeast-1.linodeobjects.com/storage/copagril/media/uploads/produto/agriao_un_bd6d9fd7-c86d-4397-9901-656aa920c6eb.thumbnail.png",
+            "numeroProdutor":"6599999-9999",
+            "valoreNutricionais":[
+                "Calorias 3.40",
+                "Carboidratos 0.46",
+                "Proteínas 0.54"
+
+            ],
+            "beneficios":[
+                " Fonte de fibra,É rico em vitamina A , C e ácido fólico e no que diz respeito aos minerais destaca-se pelo seu conteúdo de cálcio , ferro , potássio e fósforo ."
+            ]
         },
         {
             "id": 5,
             "nomeProduto": "Alface Amaricano",
-            "coverUrl": "https://trimais.vteximg.com.br/arquivos/ids/1023549-310-310/foto_original.jpg?v=637595617193400000"
+            "coverUrl": "https://trimais.vteximg.com.br/arquivos/ids/1023549-310-310/foto_original.jpg?v=637595617193400000",
+            "numeroProdutor":"6599999-9999",
+            "valoreNutricionais":[
+                "Valor energetico 131,0kcal",
+                "Carboidratos 20,7g",
+                "proteinas 5.9g"
+
+            ],
+            "beneficios":[
+                "Do ponto de vista da saúde, a alface é rica em fibras e antioxidantes, ajudando a melhorar a saúde gastrointestinal e também regulando os níveis de açúcar no sangue. Nela, você encontra nutrientes e compostos como a vitamina C, carotenóides e clorofila."
+            ]
         },
         {
             "id": 6,
             "nomeProduto": "Alface Crespa",
-            "coverUrl": "https://superprix.vteximg.com.br/arquivos/ids/178850-600-600/Alface-Crespa-Verde-Un-396.png?v=636934628540170000"
+            "coverUrl": "https://superprix.vteximg.com.br/arquivos/ids/178850-600-600/Alface-Crespa-Verde-Un-396.png?v=636934628540170000",
+            "numeroProdutor":"6599999-9999",
+            "valoreNutricionais":[
+                "Água 14,35",
+                "proteinas 0.14g"
+
+            ],
+            "beneficios":[
+                "As suas folhas são ricas em vitamina A, que ajuda a reduzir o risco de câncer de boca e câncer de pulmão. Essa hortaliça traz 20% de proteínas em sua quantidade total, e possui apenas 15 calorias em 100 gramas do produto, sendo indicada para quem faz dieta de redução de massa corpórea e ganho de massa muscular."
+            ]
         },
         {
             "id": 7,
             "nomeProduto": "Alface Roxa",
-            "coverUrl": "https://cdn.shopify.com/s/files/1/0389/8379/4827/products/alfaceroxa2.png?v=1591890591"
+            "coverUrl": "https://cdn.shopify.com/s/files/1/0389/8379/4827/products/alfaceroxa2.png?v=1591890591",
+            "numeroProdutor":"6599999-9999",
+            "valoreNutricionais":[
+                "Valor energetico 13,8,0kcal",
+                "Carboidratos 2,4g"
+                
+            ],
+            "beneficios":[
+                "Além de riquíssima em vitaminas e minerais, possui substâncias de efeito anti-inflamatório, como lipoxigenase e carragena. “E, devido à presença de lactucina e niacina, também tem propriedades calmantes”"
+            ]
         },
         {
             "id": 8,
             "nomeProduto": "Almeirão",
-            "coverUrl": "https://www.minicash.com.br/image/cache/catalog/products_2022/almeirao-un-550x550.png"
+            "coverUrl": "https://www.minicash.com.br/image/cache/catalog/products_2022/almeirao-un-550x550.png",
+            "numeroProdutor":"6599999-9999",
+            "valoreNutricionais":[
+                "Valor energetico 9.000kcal",
+                "Carboidratos 1.65",
+                "Proteínas 0.90"
+            ],
+            "beneficios":[
+                "É excelente fonte das vitaminas A, E, C, complexo B, fósforo, ferro e cálcio. Essa hortaliça tem, ainda, poder diurético, laxativo e combate a gastroenterite, além de limpar os rins e estimular o apetite."
+            ]
         },
         {
             "id": 9,
             "nomeProduto": "Banana Nanica",
-            "coverUrl": "https://frutasbrasilsul.com.br/wp-content/uploads/banana-nanica.png"
+            "coverUrl": "https://frutasbrasilsul.com.br/wp-content/uploads/banana-nanica.png",
+            "numeroProdutor":"6599999-9999",
+            "valoreNutricionais":[
+                "Valor energetico 67,90kcal",
+                "Carboidratos 15.54",
+                "Proteínas 0.84"
+
+            ],
+            "beneficios":[
+                "Possui o cálcio, as vitaminas A, C (ambas geram energia), B1, B2, B6 e B12 – que acalmam o sistema nervoso-, o magnésio, o ferro – que estimula a produção de hemoglobinas, ajudando quem sofre de anemia -, o ácido fólico, os açúcares naturais (sacarose, frutose e glicose) que com a junção das fibras também geram energia"
+            ]
         },
         {
             "id": 10,
             "nomeProduto": "Batata Doce",
-            "coverUrl": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/012/113/products/batata-doce1-6b7a8526361dcb78a915607263818520-640-0.png"
+            "coverUrl": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/012/113/products/batata-doce1-6b7a8526361dcb78a915607263818520-640-0.png",
+            "numeroProdutor":"6599999-9999",
+            "valoreNutricionais":[
+                "Previne o envelhecimento precoce",
+                "Ganho de massa muscular",
+                "Faz bem pra pele"
+            ],
+            "beneficios":[
+                "A cada 100g de batata doce (cozida com casca) podemos encontrar cerca de 24g de carboidratos, cerca de 2g de proteínas, aproximadamente 100 calorias, zero gordura e quase 4g de fibras "
+            ]
         },
         {
             "id": 11,
             "nomeProduto": "Batatinha",
-            "coverUrl": "https://www.pngkey.com/png/full/89-894351_batata-monalisa-kg-batata-monalisa-png.png"
+            "coverUrl": "https://www.pngkey.com/png/full/89-894351_batata-monalisa-kg-batata-monalisa-png.png",
+            "numeroProdutor":"6599999-9999",
+            "valoreNutricionais":[
+                "Valor energetico 30kcal",
+                "Carboidrato 7,2g",
+                "Proteinas 0g"
+
+            ],
+            "beneficios":[
+                "Ajuda na perda de peso",
+                "Melhora disposição",
+                "Controla pressão arterial"
+            ]
         },
         {
             "id": 12,
             "nomeProduto": "Berinjela",
-            "coverUrl": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/012/113/products/berinjela1-6f2dd1b25f92926bc415607265196338-640-0.png"
+            "coverUrl": "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/012/113/products/berinjela1-6f2dd1b25f92926bc415607265196338-640-0.png",
+            "numeroProdutor":"6599999-9999"
         },
         {
             "id": 13,
             "nomeProduto": "Cebolinha",
-            "coverUrl": "https://trimais.vteximg.com.br/arquivos/ids/1035295-1000-1000/foto_original.jpg?v=637902948054200000"
+            "coverUrl": "https://trimais.vteximg.com.br/arquivos/ids/1035295-1000-1000/foto_original.jpg?v=637902948054200000",
+            "numeroProdutor":"6599999-9999"
         },
         {
             "id": 14,
             "nomeProduto": "Cheiro verde",
-            "coverUrl": "https://s.cornershopapp.com/product-images/2061984.png?versionId=3Tw6tcbgIXqkIAKrKgQC9a.MLGD92Q7G"
+            "coverUrl": "https://s.cornershopapp.com/product-images/2061984.png?versionId=3Tw6tcbgIXqkIAKrKgQC9a.MLGD92Q7G",
+            "numeroProdutor":"6599999-9999"
         },
         {
             "id": 15,
             "nomeProduto": "Coentro",
-            "coverUrl": "https://ibassets.com.br/ib.item.image.big/b-46004a737e2f4823ab97cd08d44b4e6a.png"
+            "coverUrl": "https://ibassets.com.br/ib.item.image.big/b-46004a737e2f4823ab97cd08d44b4e6a.png",
+            "numeroProdutor":"6599999-9999"
         },
         {
             "id": 16,
             "nomeProduto": "Couve",
-            "coverUrl": "https://static1.conquistesuavida.com.br/ingredients/9/54/52/09/@/24752--ingredient_detail_ingredient-2.png"
+            "coverUrl": "https://static1.conquistesuavida.com.br/ingredients/9/54/52/09/@/24752--ingredient_detail_ingredient-2.png",
+            "numeroProdutor":"6599999-9999"
         },
         {
             "id": 17,
             "nomeProduto": "Jilo",
-            "coverUrl": "https://us-southeast-1.linodeobjects.com/storage/comercial-supermais/media/uploads/produto/jilo_kg_c19a5bbf-bfa3-4ed0-bd21-490e337a6009.png"
+            "coverUrl": "https://us-southeast-1.linodeobjects.com/storage/comercial-supermais/media/uploads/produto/jilo_kg_c19a5bbf-bfa3-4ed0-bd21-490e337a6009.png",
+            "numeroProdutor":"6599999-9999"
         },
         {
             "id": 18,
             "nomeProduto": "Mandioca",
-            "coverUrl": ""
+            "coverUrl": "https://imageswscdn.wslojas.com.br/files/9268/MED_anastacia-1000-sementes-de-abobrinha-italia-hibrida-621532.png",
+            "numeroProdutor":"6599999-9999"
         },
         {
             "id": 19,
             "nomeProduto": "Maxixe",
-            "coverUrl": "https://alimentumorganicos.com.br/wp-content/uploads/2022/08/maxixe.organico-330x340.png"
+            "coverUrl": "https://alimentumorganicos.com.br/wp-content/uploads/2022/08/maxixe.organico-330x340.png",
+            "numeroProdutor":"6599999-9999"
         },
         {
             "id": 20,
             "nomeProduto": "Mostarda",
-            "coverUrl": "https://www.freshorganicos.com.br/wp-content/uploads/2021/11/FRESH_ImagemPadrao_HortiFruti_Verduras_16_600x600.png"
+            "coverUrl": "https://www.freshorganicos.com.br/wp-content/uploads/2021/11/FRESH_ImagemPadrao_HortiFruti_Verduras_16_600x600.png",
+            "numeroProdutor":"6599999-9999"
         },
         {
             "id": 21,
             "nomeProduto": "Milho",
-            "coverUrl": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c20c.png"
+            "coverUrl": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c20c.png",
+            "numeroProdutor":"6599999-9999"
         },
         {
             "id": 22,
             "nomeProduto": "Hortelã",
-            "coverUrl": ""
+            "coverUrl": "https://imageswscdn.wslojas.com.br/files/9268/MED_anastacia-1000-sementes-de-abobrinha-italia-hibrida-621532.png",
+            "numeroProdutor":"6599999-9999"
         },
         {
             "id": 23,
             "nomeProduto": "Pepino",
-            "coverUrl": ""
+            "coverUrl": "https://imageswscdn.wslojas.com.br/files/9268/MED_anastacia-1000-sementes-de-abobrinha-italia-hibrida-621532.png",
+            "numeroProdutor":"6599999-9999"
         },
         {
             "id": 24,
             "nomeProduto": "Poupa de Maracujá",
-            "coverUrl": "https://polpasefrutas.com.br/arquivos/imagens/produtos/mesa/maracuja.png"
+            "coverUrl": "https://polpasefrutas.com.br/arquivos/imagens/produtos/mesa/maracuja.png",
+            "numeroProdutor":"6599999-9999"
         },
         {
             "id": 25,
             "nomeProduto": "Quiabo",
-            "coverUrl": "https://institucional.hortifruti.com.br/wp-content/themes/hortifruti-2019/inc/timthumb.php?w=193&h=131&zc=1&a=t&q=75&src=https://institucional.hortifruti.com.br/wp-content/uploads/2014/10/PRODUTO_quiabo.png"
+            "coverUrl": "https://imageswscdn.wslojas.com.br/files/9268/MED_anastacia-1000-sementes-de-abobrinha-italia-hibrida-621532.png",
+            "numeroProdutor":"6599999-9999"
         },
         {
             "id": 26,
             "nomeProduto": "Rúcula",
-            "coverUrl": "https://s.cornershopapp.com/product-images/2062028.png?versionId=VTuABsqf8FR2jGybjOTdfrLrNDGwsUju"
+            "coverUrl": "https://s.cornershopapp.com/product-images/2062028.png?versionId=VTuABsqf8FR2jGybjOTdfrLrNDGwsUju",
+            "numeroProdutor":"6599999-9999"
         },
         {
             "id": 27,
             "nomeProduto": "Salsinha",
-            "coverUrl": "https://media.soujusto.com.br/products/751320097569.png"
+            "coverUrl": "https://media.soujusto.com.br/products/751320097569.png",
+            "numeroProdutor":"6599999-9999"
         },
         {
             "id": 28,
             "nomeProduto": "Tomate",
-            "coverUrl": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c238.png"
+            "coverUrl": "https://assets.stickpng.com/images/580b57fcd9996e24bc43c238.png",
+            "numeroProdutor":"6599999-9999"
         },
         {
             "id": 29,
             "nomeProduto": "Tomate Cereja",
-            "coverUrl": "https://img.freepik.com/fotos-premium/tomate-cereja-tres-tomates-cereja-em-uma-superficie-branca_120872-20038.jpg"
+            "coverUrl": "https://www.minicash.com.br/image/cache/catalog/img/produtos_2021/tomate-cereja-uni-550x550w.png",
+            "numeroProdutor":"6599999-9999"
         }
     ]
 }

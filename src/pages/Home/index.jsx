@@ -1,7 +1,7 @@
 import { StyleSheet, View, ScrollView, TouchableOpacity } from "react-native";
 import { useEffect, useState } from "react";
 // Dados
-import {itens } from '../../../data/itens.json'
+import { itens } from "../../../data/itens.json";
 
 // Imagens
 import logo from "../../../assets/img/logoIFMS.png";
@@ -16,7 +16,7 @@ export default function Home({ navigation }) {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    setProducts(itens)
+    setProducts(itens);
   }, []);
 
   return (
@@ -27,14 +27,10 @@ export default function Home({ navigation }) {
       {/* Card De Produtos */}
       {products.length > 0 && (
         <ScrollView>
-          {products.map((item) => (
+          {products.map((itens) => (
             <TouchableOpacity
-              onPress={() => navigation.push("Details", { itens: item })}>
-              <CardFrutas
-                key={item.id}
-                title={item.nomeProduto}
-                coverUrl={item.coverUrl}
-              />
+              onPress={() => navigation.push("Details", { itens: itens })}>
+              <CardFrutas key={itens} title={itens.nomeProduto} coverUrl={itens.coverUrl} />
             </TouchableOpacity>
           ))}
         </ScrollView>
@@ -49,6 +45,6 @@ export default function Home({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "fffafa ",
   },
 });
