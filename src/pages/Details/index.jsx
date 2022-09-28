@@ -10,10 +10,9 @@ import {
 export default function Details({ route }) {
   const { itens } = route.params;
   return (
-    <View>
+    <View style={{flex:1}}>
       <ScrollView>
         <ViewPrincipalDetais>
-          
           <View>
             <ImageDetais
               resizeMode="contain"

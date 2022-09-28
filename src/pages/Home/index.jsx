@@ -1,5 +1,9 @@
-import { StyleSheet, View, ScrollView, TouchableOpacity } from "react-native";
+import { ScrollView, TouchableOpacity } from "react-native";
 import { useEffect, useState } from "react";
+
+// Estilização 
+import { ViewPrincipalHome } from "../styles";
+
 // Dados
 import { itens } from "../../../data/itens.json";
 
@@ -20,7 +24,7 @@ export default function Home({ navigation }) {
   }, []);
 
   return (
-    <View style={styles.container}>
+    <ViewPrincipalHome>
       {/* Logo Solo Fértil */}
       <HeaderLogo logo={logo} />
 
@@ -38,13 +42,6 @@ export default function Home({ navigation }) {
 
       {/* intagram */}
       <Footer text={"@solo_fertil_campus_aquidauana"} logo={instagran} />
-    </View>
+    </ViewPrincipalHome>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "fffafa ",
-  },
-});
