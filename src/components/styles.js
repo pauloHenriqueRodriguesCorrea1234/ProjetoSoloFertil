@@ -42,16 +42,15 @@ export const ImageFooter = styled.Image`
 
 // Header Logo
 export const ViewHeaderLogo = styled.View`
- margin-Top: 6%;
-    padding-Top: 5%;
-    width: 100%;
-    height: 140px;
-    background-Color: #002e00;
-    align-Items: center;
-    justify-Content: center;
-`
+  margin-top: 6%;
+  padding-top: 5%;
+  width: 100%;
+  height: 140px;
+  background-color: #002e00;
+  align-items: center;
+  justify-content: center;
+`;
 export const ImageHeaderLogo = styled.Image`
-height: 205px;
-width: 205px;
-`
-
+  height: 205px;
+  width: 205px;
+`;

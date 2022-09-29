@@ -8,29 +8,29 @@ import {
   ViewDetais,
 } from "../styles";
 export default function Details({ route }) {
-  const { itens } = route.params;
+  const { item } = route.params;
   return (
-    <View style={{flex:1}}>
+    <View style={{ flex: 1 }}>
       <ScrollView>
         <ViewPrincipalDetais>
           <View>
             <ImageDetais
               resizeMode="contain"
-              source={{ uri: itens.coverUrl }}
+              source={{ uri: item.coverUrl }}
             />
           </View>
 
           <ViewDetais>
-            <TextDetais>Valores Nutricionais do {itens.nomeProduto}</TextDetais>
-            <TextDetais>{itens.valoreNutricionais.join(", ")}</TextDetais>
+            <TextDetais>Valores Nutricionais do {item.nomeProduto}</TextDetais>
+            <TextDetais>{item.valoreNutricionais.join(", ")}</TextDetais>
           </ViewDetais>
 
           <View>
-            <TextDetais>Benficios do {itens.nomeProduto}</TextDetais>
+            <TextDetais>Benficios do {item.nomeProduto}</TextDetais>
           </View>
 
           <View>
-            <TextDetais>Número do Produtor: {itens.numeroProdutor}</TextDetais>
+            <TextDetais>Número do Produtor: {item.numeroProdutor}</TextDetais>
           </View>
         </ViewPrincipalDetais>
       </ScrollView>

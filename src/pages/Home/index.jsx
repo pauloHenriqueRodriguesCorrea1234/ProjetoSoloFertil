@@ -31,10 +31,11 @@ export default function Home({ navigation }) {
       {/* Card De Produtos */}
       {products.length > 0 && (
         <ScrollView>
-          {products.map((itens) => (
+          {products.map((item) => (
             <TouchableOpacity
-              onPress={() => navigation.push("Details", { itens: itens })}>
-              <CardFrutas key={itens} title={itens.nomeProduto} coverUrl={itens.coverUrl} />
+              key={item.id} 
+              onPress={() => navigation.push("Details", { item: item })}>
+              <CardFrutas title={item.nomeProduto} coverUrl={item.coverUrl} />
             </TouchableOpacity>
           ))}
         </ScrollView>

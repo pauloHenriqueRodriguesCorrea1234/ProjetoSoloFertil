@@ -1,5 +1,4 @@
-
-import { ViewCardFrutas, ImageCardFrutas, TextCardFruutas} from "../styles";
+import { ViewCardFrutas, ImageCardFrutas, TextCardFruutas } from "../styles";
 export default function CardFrutas({ title, coverUrl }) {
   return (
     <ViewCardFrutas>
