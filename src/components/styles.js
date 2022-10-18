@@ -1,4 +1,5 @@
 import styled from "styled-components/native";
+
 // Card de Frutas
 export const ViewCardFrutas = styled.View`
   border-width: 1.1px;

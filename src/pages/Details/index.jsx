@@ -14,10 +14,7 @@ export default function Details({ route }) {
       <ScrollView>
         <ViewPrincipalDetais>
           <View>
-            <ImageDetais
-              resizeMode="contain"
-              source={{ uri: item.coverUrl }}
-            />
+            <ImageDetais resizeMode="contain" source={{ uri: item.coverUrl }} />
           </View>
 
           <ViewDetais>

@@ -1,7 +1,7 @@
 import { ScrollView, TouchableOpacity } from "react-native";
 import { useEffect, useState } from "react";
 
-// Estilização 
+// Estilização
 import { ViewPrincipalHome } from "../styles";
 
 // Dados
@@ -33,8 +33,9 @@ export default function Home({ navigation }) {
         <ScrollView>
           {products.map((item) => (
             <TouchableOpacity
-              key={item.id} 
-              onPress={() => navigation.push("Details", { item: item })}>
+              key={item.id}
+              onPress={() => navigation.push("Details", { item: item })}
+            >
               <CardFrutas title={item.nomeProduto} coverUrl={item.coverUrl} />
             </TouchableOpacity>
           ))}

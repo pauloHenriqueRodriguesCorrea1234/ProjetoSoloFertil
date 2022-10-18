@@ -1,5 +1,5 @@
 import styled from "styled-components/native";
-// Estilização Details
+
 export const ViewCardFrutas = styled.View`
   border-width: 1.1px;
   flex-direction: row;
