@@ -1,6 +1,8 @@
 import { ViewHeaderLogo, ImageHeaderLogo } from "../styles";
 
-export default function Header({ logo }) {
+import logo from "../../../assets/img/logoIFMS.png";
+
+export default function Header() {
   return (
     <ViewHeaderLogo>
       <ImageHeaderLogo source={logo} />

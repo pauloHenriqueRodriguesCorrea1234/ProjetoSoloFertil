@@ -10,6 +10,7 @@ export const ViewCardFrutas = styled.View`
   justify-content: space-between;
   margin-left: 3%;
   margin-right: 3%;
+  border-radius: 10px;
 `;
 export const ImageCardFrutas = styled.Image`
   width: 120px;
@@ -29,6 +30,10 @@ export const ViewFooter = styled.View`
   justify-content: center;
 `;
 
+export const TouchableOpacity = styled.TouchableOpacity`
+  flex-direction: row;
+`
+
 export const TextFooter = styled.Text`
   color: #fff;
   padding: 9px;
@@ -43,7 +48,6 @@ export const ImageFooter = styled.Image`
 
 // Header Logo
 export const ViewHeaderLogo = styled.View`
-  margin-top: 6%;
   padding-top: 5%;
   width: 100%;
   height: 140px;

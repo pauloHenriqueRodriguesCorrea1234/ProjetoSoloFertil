@@ -7,10 +7,6 @@ import { ViewPrincipalHome } from "../styles";
 // Dados
 import { itens } from "../../../data/itens.json";
 
-// Imagens
-import logo from "../../../assets/img/logoIFMS.png";
-import instagran from "../../../assets/img/logoInstagran.png";
-
 // Components
 import HeaderLogo from "../../components/HeaderLogo";
 import Footer from "../../components/Footer";
@@ -26,7 +22,7 @@ export default function Home({ navigation }) {
   return (
     <ViewPrincipalHome>
       {/* Logo Solo Fértil */}
-      <HeaderLogo logo={logo} />
+      <HeaderLogo/>
 
       {/* Card De Produtos */}
       {products.length > 0 && (
@@ -43,7 +39,7 @@ export default function Home({ navigation }) {
       )}
 
       {/* intagram */}
-      <Footer text={"@solo_fertil_campus_aquidauana"} logo={instagran} />
+      <Footer/>
     </ViewPrincipalHome>
   );
 }

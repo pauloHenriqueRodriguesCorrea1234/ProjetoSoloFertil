@@ -4,11 +4,13 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { ConteinerView } from "./App1";
 import Home from "./src/pages/Home";
 import Details from "./src/pages/Details";
+import { StatusBar } from "react-native";
 
 const Stack = createNativeStackNavigator();
 export default function App() {
   return (
     <ConteinerView>
+      <StatusBar />
       <NavigationContainer>
         <Stack.Navigator>
           <Stack.Screen

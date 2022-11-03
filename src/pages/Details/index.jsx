@@ -31,7 +31,7 @@ export default function Details({ route }) {
           </View>
         </ViewPrincipalDetais>
       </ScrollView>
-      <Footer text={"@solo_fertil_campus_aquidauana"} logo={instagran} />
+      <Footer/>
     </View>
   );
 }
