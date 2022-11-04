@@ -1,12 +1,7 @@
-import { View, ScrollView } from "react-native";
+import { View, ScrollView, TouchableOpacity, Linking } from "react-native";
 import Footer from "../../components/Footer";
 import instagran from "../../../assets/img/logoInstagran.png";
-import {
-  ImageDetais,
-  ViewPrincipalDetais,
-  TextDetais,
-  ViewDetais,
-} from "../styles";
+
 export default function Details({ route }) {
   const { item } = route.params;
   return (
@@ -27,11 +22,18 @@ export default function Details({ route }) {
           </View>
 
           <View>
-            <TextDetais>Número do Produtor: {item.numeroProdutor}</TextDetais>
+            <TouchableOpacity
+              onPress={() => {
+                Linking.openURL("http://api.whatsapp- com/sendrphone=5511999999999"
+                );
+              }}
+            >
+              <TextDetais>Entre em contato</TextDetais>
+            </TouchableOpacity>
           </View>
         </ViewPrincipalDetais>
       </ScrollView>
-      <Footer/>
+      <Footer />
     </View>
   );
 }

@@ -1,8 +1,5 @@
-import { ScrollView, TouchableOpacity } from "react-native";
+import { View, ScrollView, TouchableOpacity } from "./styles";
 import { useEffect, useState } from "react";
-
-// Estilização
-import { ViewPrincipalHome } from "../styles";
 
 // Dados
 import { itens } from "../../../data/itens.json";
@@ -10,7 +7,7 @@ import { itens } from "../../../data/itens.json";
 // Components
 import HeaderLogo from "../../components/HeaderLogo";
 import Footer from "../../components/Footer";
-import CardFrutas from "../../components/CardFrutas";
+import CardFrutas from "../CardFrutas";
 
 export default function Home({ navigation }) {
   const [products, setProducts] = useState([]);
@@ -20,7 +17,7 @@ export default function Home({ navigation }) {
   }, []);
 
   return (
-    <ViewPrincipalHome>
+    <View>
       {/* Logo Solo Fértil */}
       <HeaderLogo/>
 
@@ -40,6 +37,6 @@ export default function Home({ navigation }) {
 
       {/* intagram */}
       <Footer/>
-    </ViewPrincipalHome>
+    </View>
   );
 }

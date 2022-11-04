@@ -1,20 +1,21 @@
-import { TextFooter, ImageFooter, ViewFooter, TouchableOpacity } from "../styles";
+import { Image, Text, View, TouchableOpacity } from "./styles";
 import { Linking } from "react-native";
-
 import instagran from "../../../assets/img/logoInstagran.png";
+
+
 export default function Footer() {
   return (
-    <ViewFooter>
+    <View>
       <TouchableOpacity
-       onPress={() => {
-        Linking.openURL(
-          "https://www.instagram.com/solo_fertil_campus_aquidauana/"
-        );
-      }}
+        onPress={() => {
+          Linking.openURL(
+            "https://www.instagram.com/solo_fertil_campus_aquidauana/"
+          );
+        }}
       >
-        <TextFooter>{"@solo_fertil_campus_aquidauana"}</TextFooter>
-        <ImageFooter source={instagran} />
+        <Text>{"@solo_fertil_campus_aquidauana"}</Text>
+        <Image source={instagran} />
       </TouchableOpacity>
-    </ViewFooter>
+    </View>
   );
 }
